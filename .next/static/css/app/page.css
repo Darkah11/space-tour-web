@@ -1,0 +1,26 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\page.jsx","import":"Barlow_Condensed","arguments":[{"subsets":["latin"],"weight":["300","500","600","700","900"]}],"variableName":"barlowCondensed"} ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Barlow_Condensed_Fallback_a6631f';
+  src: local("Arial");
+  ascent-override:129.44%;
+  descent-override:25.89%;
+  line-gap-override:0.00%;
+  size-adjust:77.25%;
+}@font-face {font-family: '__Barlow_Condensed_Fallback_Fallback_a6631f';src: local("Arial");ascent-override: 129.44%;descent-override: 25.89%;line-gap-override: 0.00%;size-adjust: 77.25%
+}.__className_a6631f {font-family: '__Barlow_Condensed_Fallback_a6631f', '__Barlow_Condensed_Fallback_Fallback_a6631f';font-style: normal
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\page.jsx","import":"Bellefair","arguments":[{"subsets":["latin"],"weight":["400"]}],"variableName":"bellefair"} ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Bellefair_Fallback_4867da';
+  src: local("Times New Roman");
+  ascent-override:94.43%;
+  descent-override:30.10%;
+  line-gap-override:0.00%;
+  size-adjust:92.02%;
+}@font-face {font-family: '__Bellefair_Fallback_Fallback_4867da';src: local("Times New Roman");ascent-override: 94.43%;descent-override: 30.10%;line-gap-override: 0.00%;size-adjust: 92.02%
+}.__className_4867da {font-family: '__Bellefair_Fallback_4867da', '__Bellefair_Fallback_Fallback_4867da';font-weight: 400;font-style: normal
+}

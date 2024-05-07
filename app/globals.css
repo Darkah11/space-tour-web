@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-home {
+    /* background: url('./assets/home/background-home-mobile.jpg') center no-repeat;
+    background-size: cover; */
+    @apply bg-home-bg-mobile bg-no-repeat 
+    bg-center bg-cover md:bg-home-bg-tablet lg:bg-home-bg-desktop
+}
+.mobile-menu-btn {
+    background: url('./assets/shared/icon-hamburger.svg') center no-repeat;
+}
+.close-btn {
+    background: url('./assets/shared/icon-close.svg') center no-repeat;
+}
+.nav-link {
+    @apply uppercase text-sm tracking-widest font-light block 
+    box-border py-10  relative
+}
+.mobile-link {
+    @apply uppercase text-base tracking-widest font-light block relative
+}
+.nav-link.active::after, .nav-link:hover::after {
+    content: "";
+    @apply absolute w-full h-[2px] bottom-0 left-0 right-0 mx-auto 
+    bg-light
+}
+.destination-page {
+    @apply bg-destination-bg-mobile md:bg-destination-bg-tablet lg:bg-destination-bg-desktop bg-no-repeat bg-center bg-cover
+}
+.crew-page {
+    @apply bg-crew-bg-mobile md:bg-crew-bg-tablet lg:bg-crew-bg-desktop bg-no-repeat bg-center bg-cover
+}
+.tech-page {
+    @apply bg-tech-bg-mobile md:bg-tech-bg-tablet lg:bg-tech-bg-desktop bg-no-repeat bg-center bg-cover
+}
+.dest-btn {
+    @apply py-2 uppercase relative text-sm md:text-base
+}
+.dest-btn.active::after, .dest-btn:hover::after {
+    content: "";
+    @apply  absolute w-full h-[2px] bottom-0 left-0 right-0 mx-auto bg-light
+}
+.fact-title {
+    @apply uppercase block pb-2 text-sm
+}
+.tab-btn {
+    @apply w-[10px] h-[10px] rounded-full bg-white opacity-30
+}
+.active-tab-btn {
+    @apply bg-white opacity-100
+}
+.tab-content {
+    @apply hidden relative
+}
+.active-tab-content {
+    @apply w-full block lg:flex lg:flex-row-reverse lg:justify-between lg:items-center
+}
+.img-container {
+    @apply border-b border-b-gray-500
+}
+.tab-text {
+    @apply md:absolute md:top-0 md:left-0 md:right-0 m-auto md:flex md:flex-col-reverse md:items-center  md:gap-6 lg:relative lg:gap-24 lg:max-w-[55%] lg:m-0 lg:items-start
+}
+.planet-tab {
+    @apply  hidden
+}
+.planet-btn {
+    @apply text-primary pb-3 relative uppercase text-sm tracking-widest md:text-base 
+}
+.active-planet-tab {
+    @apply pt-16 flex items-center flex-col lg:flex-row lg:justify-between
+}
+.active-planet-btn {
+    @apply relative text-white
+}
+.planet-btn:hover {
+    @apply text-white
+}
+.active-planet-btn::after {
+    content: "";
+    @apply w-[35px] h-1 bg-white absolute bottom-0 left-0 right-0 m-auto
+}
+.planet-features {
+    @apply border-t-2 border-white border-opacity-30 pt-8 flex justify-center 
+    items-center gap-10 flex-col md:flex-row md:justify-evenly lg:justify-start lg:gap-[20%]
+}
+.planet-tab-text {
+    @apply max-w-xl lg:max-w-[45%] 
+}
+main {
+    @apply pt-24 md:pt-32 lg:pt-48
+}
+.tech-tab {
+    @apply hidden
+}
+.active-tech-tab {
+    @apply block lg:flex py-12 lg:flex-row-reverse lg:justify-between
+}
+.tech-btn {
+    @apply w-12 h-12 rounded-full border-2 border-white p-4 text-base
+    flex justify-center items-center md:w-14 md:h-14 md:text-2xl lg:w-20 lg:h-20 lg:text-3xl
+}
+.active-tech-btn {
+    @apply bg-white text-dark
+}
+.tech-tab-text {
+    @apply lg:flex lg:items-center lg:justify-center lg:gap-16 max-w-lg md:pt-14 
+    md:px-10 lg:pt-0 lg:m-0 lg:pl-36 lg:pr-0 lg:max-w-[65%] 
+}
